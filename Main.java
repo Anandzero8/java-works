@@ -1,11 +1,16 @@
+package com.learn;
+
+import java.util.Arrays;
+
 public class Main {
 
     public static void main(String[] args) {
-	int i;
-    String k =" ";
-    for(i=5;i>0;i--){
-        k=i+" "+k;
-        System.out.println(k);
-    }
+	// write your code here
+        int[] numbers = {10,11,21};
+        char name[] = {'a','b','c'};
+
+        System.out.println (numbers[0]);
+        System.out.println(Arrays.toString(numbers));
+        System.out.println((name[1]));
     }
 }
